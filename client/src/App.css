@@ -2,37 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NavBar */
+.navbar{
+  background-color: rgb(45, 45, 45);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-name{
+  color: rgb(0, 247, 255);
+  text-decoration: none;
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-list{
   color: white;
+  display: flex;
+  gap:30px;
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-decoration: underline;
+
 }
 
-.App-link {
-  color: #61dafb;
+.hero {
+  width: 100%; /* Default width for the image */
+  padding: 20px;
+  border-radius: 40px;
+  
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 768px) {
+  /* Styles for screens up to 768px wide */
+  .hero {
+    width: 100%; /* Adjust the width for smaller screens */
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 480px) {
+  /* Styles for screens up to 480px wide */
+  .hero {
+    width: 100%; /* Adjust the width for even smaller screens */
   }
 }
