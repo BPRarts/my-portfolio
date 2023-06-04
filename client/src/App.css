@@ -26,10 +26,16 @@
 
 }
 
+
+
+
+
+
+/* hero image*/
 .hero {
   width: 100%; /* Default width for the image */
-  padding: 20px;
-  border-radius: 40px;
+ 
+  
   
  
 }
@@ -46,4 +52,77 @@
   .hero {
     width: 100%; /* Adjust the width for even smaller screens */
   }
+}
+
+
+
+
+
+
+
+
+/* Projects */
+.displays {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(155, 0, 233);
+  
+}
+
+
+.project img {
+  width: 100%;
+  max-width: 800px;
+  height: 480px;
+  border-radius: 20px;
+  border:  6px solid rgb(255, 255, 255);
+  margin: 10px;
+  
+}
+
+@media (min-width: 768px) {
+  .project {
+    width: 50%;
+  }
+}
+
+
+.title{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.description{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+/* Languages/Tools */
+.list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+}
+
+.list li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
