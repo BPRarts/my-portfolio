@@ -2,8 +2,8 @@ import React from 'react';
 
 const LanguagesTools = () => {
     return (
-        <div>
-            <h2>Languages And Tools</h2>
+        <div className='tools-container'>
+            <h2 className='tools-title'>Languages And Tools</h2>
             <ul className='list'>
                 <li>Javascript</li>
                 <li>HTML</li>
