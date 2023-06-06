@@ -64,8 +64,8 @@
 /* Projects */
 
 .project-container{
-  /* background-color:rgb(92, 13, 251); */
-  /* border: 2px solid black; */
+  
+  
   
 }
 
@@ -96,8 +96,9 @@
   max-width: 800px;
   height: 480px;
   border-radius: 20px;
-  border:  4px solid rgb(0, 0, 0);
+  border: 5px solid rgb(124, 75, 231);  
   margin: 10px;
+  box-shadow: 20px 15px rgb(165, 165, 165);
   
 }
 
@@ -139,6 +140,7 @@
 /* Languages/Tools */
 .tools-container{
   margin-top: 70px;
+ 
 }
 .tools-title{
   color: rgb(56, 59, 255);
@@ -153,6 +155,7 @@
   justify-content: center;
   font-size: 30px;
   color: white;
+  
 }
 
 .list li {
@@ -161,6 +164,7 @@
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(56, 59, 255);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.541), 0 15px 20px 0 rgba(4, 0, 0, 0.19);
 }
 
 
@@ -174,6 +178,7 @@
 /* About me */
 .about-container{
   margin-top: 70px;
+  
 }
 
 
@@ -181,12 +186,17 @@
  text-align: left;
  margin-left: 20px;
  font-size: 50px;
+ color: rgb(56, 59, 255);
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ text-decoration: underline;
+ font-weight: bolder;
 }
 
 .me{
   height: 400px;
   border-radius: 20px;
-  border: 3px solid rgb(1, 255, 1);
+  border: 5px solid rgb(102, 88, 255);  
+  box-shadow: 20px 15px rgb(165, 165, 165);
 }
 
 
@@ -194,6 +204,7 @@
  justify-content: center;
  margin-top: 20px; 
  font-size: 25px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
  
 
  
@@ -212,26 +223,34 @@
 
 /* contact me */
 
+.contact-container{
+  background-color: rgba(80, 60, 255, 0.989);
+}
+
+.contact-title{
+  color: white;
+  font-size: 30px;
+}
 .email{
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   height: 100px;
   border-radius: 20px;
 }
 
 .link{
-  background-color: aqua;
+  background-color: rgb(253, 255, 255);
   height: 100px;
   border-radius: 20px;
 }
 
 .insta{
-  background-color: aqua;
+  background-color: rgb(252, 255, 255);
   height: 100px;
   border-radius: 20px;
 }
 
 .git{
-  background-color: aqua;
+  background-color: rgb(254, 255, 255);
   height: 100px;
   border-radius: 20px;
 }

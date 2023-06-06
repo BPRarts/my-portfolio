@@ -6,8 +6,8 @@ import git from './Img/github.png';
 
 const Contact = () => {
     return (
-        <div>
-            <h4>Contact Me</h4>
+        <div className='contact-container'>
+            <h4 className='contact-title'>Contact Me</h4>
             <div className='my-socials'>
             <img className = "email" src={email} alt= ''/>
             <img className = "link" src={link} alt= ''/>
