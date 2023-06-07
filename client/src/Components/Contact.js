@@ -9,10 +9,18 @@ const Contact = () => {
         <div className='contact-container'>
             <h4 className='contact-title'>Contact Me</h4>
             <div className='my-socials'>
-            <img className = "email" src={email} alt= ''/>
-            <img className = "link" src={link} alt= ''/>
-            <img className = "insta" src={insta} alt= ''/>
-            <img className = "git" src={git} alt= ''/>
+            <a href='mailto:bryanpablo472@gmail.com'>
+          <img className='email' src={email} alt='' />
+        </a>
+        <a href='https://www.linkedin.com/in/bryan-pablo-524b25274/'>
+          <img className='link' src={link} alt='' />
+        </a>
+        <a href='https://www.instagram.com/bpr_arts1/'>
+          <img className='insta' src={insta} alt='' />
+        </a>
+        <a href='https://github.com/BPRarts'>
+          <img className='git' src={git} alt='' />
+        </a>
 
             </div>
         </div>

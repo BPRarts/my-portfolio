@@ -63,10 +63,10 @@
 
 /* Projects */
 
-.project-container{
-  
-  
-  
+.project-link{
+  color: rgb(56, 59, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
 }
 
 .project-title{
@@ -139,7 +139,7 @@
 
 /* Languages/Tools */
 .tools-container{
-  margin-top: 70px;
+  margin-top: 120px;
  
 }
 .tools-title{
@@ -230,34 +230,44 @@
 .contact-title{
   color: white;
   font-size: 30px;
+  
 }
 .email{
   background-color: rgb(255, 255, 255);
   height: 100px;
   border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.541), 0 15px 20px 0 rgba(4, 0, 0, 0.19);
+  border: 3px solid rgb(220, 183, 0);
 }
 
 .link{
   background-color: rgb(253, 255, 255);
   height: 100px;
   border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.541), 0 15px 20px 0 rgba(4, 0, 0, 0.19);
+  border: 3px solid rgb(0, 195, 255);
 }
 
 .insta{
   background-color: rgb(252, 255, 255);
   height: 100px;
   border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.541), 0 15px 20px 0 rgba(4, 0, 0, 0.19);
+  border: 3px solid rgb(255, 47, 0);
 }
 
 .git{
   background-color: rgb(254, 255, 255);
   height: 100px;
   border-radius: 20px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.541), 0 15px 20px 0 rgba(4, 0, 0, 0.19);
+  border: 3px solid rgb(0, 255, 55);
 }
 
 .my-socials {
   display: flex;
   justify-content: center;
+  
 }
 
 .my-socials img {

@@ -12,7 +12,8 @@ const Projects = () => {
                        <img className='solopro' src = {solopro} alt ='' />
                        <p className='title'>Games Market Place</p>
                        <p className='description'> A web application that allows gamers to sell games, and buy games.</p>
-                       <p className='description'> GitHub.</p>
+                        <a className='project-link' href='https://github.com/BPRarts/games-market-place'>GitHub</a>
+                      
                     
                     </div>
                      
@@ -20,7 +21,8 @@ const Projects = () => {
                         <img className='grouppro' src = {grouppro} alt ='' />
                         <p className='title'>Looking For GameNight</p>
                        <p className='description'>A web application that helps people find local game nights.</p>
-                       <p className='description'> GitHub.</p>
+                       
+                        <a className ='project-link' href='https://github.com/DeShawnThomas/L.F.G.-Looking-For-Gamenight--Group-Project-'>GitHub</a>
                       
                     </div>
 
